@@ -11,6 +11,7 @@ function IanSwiper({ movie }) {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       //   spaceBetween={0}
       slidesPerView={3}
+      loop={true}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
