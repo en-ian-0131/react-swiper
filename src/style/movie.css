@@ -1,0 +1,46 @@
+.movieAll{
+    width: 70%;
+    margin-left:15%;
+    position: relative;
+    margin: 60px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+img{
+    width: 100%;
+    /* box-shadow: 10px 10px 30px black; */
+    border-radius: 10px 10px 0px 0px;
+}
+.img_p{
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: rgb(76, 76, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+.movieAll > i{
+    font-size:65px ;
+    color: rgb(255, 217, 0);
+    position: absolute;
+    right: 8%;
+    top: -2%;
+}
+.rank_num{
+    font-size: 40px;
+    position: absolute;
+    right:13%;
+    top: -2.5%;
+}
+.comeOut{
+    font-size: 20px;
+    color: gray;
+    margin: 0px;
+}
+.movieAll:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 13px 50px black;
+}
