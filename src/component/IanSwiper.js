@@ -9,9 +9,9 @@ function IanSwiper({ movie }) {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      //   spaceBetween={0}
+      spaceBetween={0}
       slidesPerView={3}
-      loop={true}
+      // loop={true}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
@@ -21,6 +21,7 @@ function IanSwiper({ movie }) {
       {movie.map((v, i) => {
         return (
           <SwiperSlide key={i}>
+            {' '}
             <div className="movieAll">
               <i className="fa-solid fa-bookmark"></i>
               <p className="rank_num">{i + 1}</p>

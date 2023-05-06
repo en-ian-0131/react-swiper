@@ -1,15 +1,23 @@
+.container{
+    --swiper-navigation-color:rgb(147, 147, 255);
+    --swiper-navigation-size:30px;
+
+}
 .movieAll{
-    width: 70%;
-    margin-left:15%;
+    width: 80%;
+    /* height:100%; */
     position: relative;
-    margin: 60px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 10%;
     transition: 0.3s;
     box-shadow: 5px 5px 20px black;
     border-radius: 10px;
-    /* overflow: hidden; */
 }
-img{
+.movieAll > img{
     width: 100%;
+    height: 100%;
+    object-fit: contain;
     /* box-shadow: 10px 10px 30px black; */
     border-radius: 10px 10px 0px 0px;
 }
@@ -26,13 +34,13 @@ img{
     font-size:65px ;
     color: rgb(255, 217, 0);
     position: absolute;
-    right: 8%;
+    right: 5%;
     top: -2%;
 }
 .rank_num{
     font-size: 40px;
     position: absolute;
-    right:13%;
+    right:10%;
     top: -2.5%;
 }
 .comeOut{
